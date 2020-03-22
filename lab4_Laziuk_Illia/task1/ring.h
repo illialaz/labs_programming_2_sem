@@ -30,7 +30,7 @@ public:
     void removeAfter(const int& num);
     void removeBefore(const int& num);
     void print(void);
-    virtual ~Ring(void) {
+    ~Ring(void) {
         if(!head) return;
 
         Node *p = head->next;
